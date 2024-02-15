@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper"></div>
+    <!-- react cdn -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- react dom cdn -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      const wrap = ReactDOM.createRoot(document.querySelector(".wrapper"));
+      const h2 = React.createElement("h2", {}, "React 2");
+      wrap.render(h2);
+      //so createRoot is a method which creates an object behind the scenes which in creates root of the react tree and with createElement we create an element which can be inserted inside the tree
+    </script>
+  </body>
+</html>
