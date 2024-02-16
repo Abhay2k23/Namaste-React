@@ -1,0 +1,25 @@
+{
+  "name": "react.js",
+  "version": "1.0.0",
+  "description": "Practice ",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay2k23/Namaste-React.git"
+  },
+  "author": "Abhayraj Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhay2k23/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Abhay2k23/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
